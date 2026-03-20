@@ -87,9 +87,9 @@ MediTrack gives you a clean workflow:
 ```mermaid
 flowchart LR
   U[User] --> FE[React UI]
-  FE -->|REST (signup/login, vitals, reminders, tips)| API[FastAPI REST API]
-  API -->|Auth + Postgres CRUD| SB[Supabase]
-  SB -->|Data (vitals/reminders)| API
+  FE -->|REST signup login vitals reminders tips| API[FastAPI REST API]
+  API -->|Auth Postgres CRUD| SB[Supabase]
+  SB -->|Data vitals reminders| API
   API --> FE
 ```
 
