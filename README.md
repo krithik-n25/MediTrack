@@ -1,4 +1,4 @@
-# #########################################MediTrack
+#                                                MediTrack
 
 Track health vitals and medication reminders with a FastAPI + React + Supabase stack.
 
